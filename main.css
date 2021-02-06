@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 400px;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+.title {
+  font-size: 22px;
+  color: #333;
+  text-align: center;
+}
+.action-button {
+  border: none;
+  background-color: #eee;
+  border-radius: 5px;
+  box-shadow: none;
+  color: #333;
+  text-transform: capitalize;
+  font-size: 12px;
+  padding: 7px 15px;
+}
