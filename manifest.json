@@ -3,12 +3,11 @@
     "version": "1.0.0",
     "description": "Simple chrome extension to bookmark your favorite websites",
     "manifest_version": 2,
-    "permissions": ["storage"],
+    "permissions": ["storage", "tabs"],
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
-            "js": ["content.js"],
-            "css":["main.css"]
+            "js": ["content.js"]
         }
     ],
     "browser_action": {
